@@ -1,0 +1,20 @@
+@import '@node_modules/slick-carousel/slick/slick.css';
+@import '@node_modules/slick-carousel/slick/slick-theme.css';
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 40px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev {
+  left: 3px;
+  z-index: 3;
+}
+
+.slider {
+  margin-bottom: 5em;
+}

@@ -1,0 +1,9 @@
+.column {
+	float: right;
+	width: 48%;
+}
+
+.column.odd {
+	clear: both;
+	float: left;
+}

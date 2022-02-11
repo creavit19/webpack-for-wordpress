@@ -1,0 +1,22 @@
+/*!************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js!../src/scss/main.scss ***!
+  \************************************************************************************************************************************************************************************/
+.slick-prev::before,
+.slick-next::before {
+  font-size: 40px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-prev {
+  left: 3px;
+  z-index: 3;
+}
+
+.slider {
+  margin-bottom: 5em;
+}
+
+/*# sourceMappingURL=template-homepage.css.map*/

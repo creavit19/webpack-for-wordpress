@@ -1,0 +1,86 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: $main-color;
+}
+
+.storefront-breadcrumb {
+  margin: 0 0 1em;
+}
+
+.site-branding .site-title a {
+  color: $main-color;
+  &:hover {
+    color: $main-color-light;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .wc-block-grid__product-title {
+  font-weight: 500;
+  color: $headers-color;
+}
+
+a:focus,
+button:focus,
+.button.alt:focus,
+input:focus,
+textarea:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus {
+  outline-color: $main-color-light;
+}
+
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.widget a.button {
+  background-color: $button-color;
+  border-color: $button-color;
+  color: $button-text-color;
+  border-radius: 0.5em;
+  &:hover {
+    background-color: $button-hover-color;
+    border-color: $button-hover-color;
+    color: $button-text-color;
+  }
+}
+
+button.button.alt,
+.added_to_cart.alt,
+.added_to_cart,
+.widget a.button.checkout {
+  background-color: $to-cart-button-color;
+  border-color: $to-cart-button-color;
+  color: $to-cart-button-text-color;
+  border-radius: 0.5em;
+  &:hover {
+    background-color: $to-cart-button-hover-color;
+    border-color: $to-cart-button-hover-color;
+    color: $to-cart-button-text-color;
+  }
+}
+
+
+
+.wp-block-social-links .wp-block-social-link .wp-block-social-link-anchor svg {
+  color: #fff;
+  fill: #fff;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "storefront-child",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --mode development --config webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --mode production --config webpack.config.js",
+    "start": "cross-env NODE_ENV=development webpack serve --open --config webpack.config.js",
+    "stat": "cross-env NODE_ENV=development arg=stat webpack --json stats.json && webpack-bundle-analizer stats.json"
+  },
+  "author": "Volodymyr Ilinskiy",
+  "license": "ISC",
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "assets-webpack-plugin": "^6.1.2",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.20.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.3.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.2.0",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.65.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "slick-carousel": "^1.8.1"
+  }
+}

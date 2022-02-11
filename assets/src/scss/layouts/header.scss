@@ -1,0 +1,45 @@
+.woocommerce-active .site-header .site-search {
+  float: left;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+  float: right;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+  width: 20%;
+}
+
+.site-header-cart .cart-contents {
+  padding: 1em .875em;
+  background-color: $header-cart-color;
+  border-radius: 1em;
+}
+
+.secondary-navigation .menu {
+  font-size: 1em;
+}
+
+.storefront-primary-navigation .telephone {
+  padding: 1.618em 1em;
+}
+
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a,
+.site-header ul.menu li.current-menu-item > a {
+  color: $active-menu-color;
+  border-bottom: 2px solid $active-menu-color;
+}
+
+.main-navigation ul.menu > li > a,
+.main-navigation ul.nav-menu > li > a {
+  border-bottom: 2px solid transparent;
+  &:hover {
+    border-bottom: 2px solid $active-menu-color;
+  }
+}
+
+li.menu-item.wpml-ls-item.wpml-ls-menu-item.menu-item-type-wpml_ls_menu_item.menu-item-object-wpml_ls_menu_item.focus a,
+li.menu-item.wpml-ls-item.wpml-ls-menu-item.menu-item-type-wpml_ls_menu_item.menu-item-object-wpml_ls_menu_item a:hover {
+  color: $active-menu-color;
+}
